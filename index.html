@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Hit Predictions Limited | Elite Sports Tips</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <i data-lucide="shield-check" class="main-icon"></i>
+            <h1>PURE HIT <span class="accent">PREDICTIONS</span></h1>
+        </div>
+
+        <nav class="filter-nav">
+            <button class="nav-btn active" onclick="filterGames('all', this)">HOME</button>
+            <button class="nav-btn" onclick="filterGames('O 1.5', this)">O 1.5</button>
+            <button class="nav-btn" onclick="filterGames('O 2.5', this)">O 2.5</button>
+            <button class="nav-btn" onclick="filterGames('DC', this)">DOUBLE CHANCE</button>
+        </nav>
+    </header>
+
+    <main id="main-content" class="grid-layout">
+        <section class="section-container" id="vip-section">
+            <h2 class="section-title vip-title"><i data-lucide="crown"></i> VIP BANKER</h2>
+            <div id="vip-list"></div>
+        </section>
+
+        <section class="section-container">
+            <h2 class="section-title"><i data-lucide="flame"></i> <span id="category-label">DAILY TOP 5</span></h2>
+            <div id="ordinary-list"></div>
+        </section>
+    </main>
+
+    <div class="social-floats">
+        <a href="https://wa.me/256786027771?text=Hello%20Pure%20Hit%2C%20I%20am%20interested%20in%20your%20VIP%20predictions." class="whatsapp-float" target="_blank">
+            <i data-lucide="message-circle"></i>
+            <span>WHATSAPP</span>
+        </a>
+        
+        <a href="https://t.me/yourlink" class="telegram-float" target="_blank">
+            <i data-lucide="send"></i>
+            <span>TELEGRAM</span>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pure Hit Predictions Limited. 18+ Only. Play Responsibly.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="markets.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
