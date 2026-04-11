@@ -21,18 +21,15 @@ function renderPredictions(filter = 'all') {
     if (filter === 'all') {
         vipSection.classList.remove('hidden');
         categoryLabel.innerText = "DAILY TOP 5";
-        
-        // Render 1 VIP Game
-        if (PURE_HIT_DATA.vip.length > 0) {
+        if (typeof PURE_HIT_DATA !== 'undefined' && PURE_HIT_DATA.vip.length > 0) {
             vipContainer.innerHTML = createCardHTML(PURE_HIT_DATA.vip[0]);
         }
-        
-        // Render 5 Ordinary Games
-        PURE_HIT_DATA.ordinary.forEach(game => ordContainer.innerHTML += createCardHTML(game));
+        if (typeof PURE_HIT_DATA !== 'undefined') {
+            PURE_HIT_DATA.ordinary.forEach(game => ordContainer.innerHTML += createCardHTML(game));
+        }
     } else {
         vipSection.classList.add('hidden');
         categoryLabel.innerText = `${filter} MARKET`;
-        
         const marketGames = MARKET_DATA[filter];
         if (marketGames && marketGames.length > 0) {
             marketGames.forEach(game => ordContainer.innerHTML += createCardHTML(game));
