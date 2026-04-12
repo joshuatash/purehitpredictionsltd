@@ -2,19 +2,19 @@ const PURE_HIT_DATA = {
     vip: [
         {
             date: "2026-04-12",
-            time: "20:45",
-            home: "Bayern Munich",
-            away: "Real Madrid",
-            prediction: "Home Win & O 1.5",
-            odds: "2.10",
+            time: "19:00",
+            home: "Galatasaray",
+            away: "Kocaelispor",
+            prediction: "BTTS",
+            odds: "2.20",
             status: "pending"
         }
     ],
     ordinary: [
-        { date: "2026-04-12", time: "15:00", home: "Arsenal", away: "Everton", prediction: "Home Win", odds: "1.45", status: "pending" },
-        { date: "2026-04-12", time: "17:30", home: "AC Milan", away: "Inter", prediction: "BTTS", odds: "1.65", status: "pending" },
-        { date: "2026-04-12", time: "16:00", home: "Lille", away: "Lyon", prediction: "Over 2.5", odds: "1.80", status: "pending" },
-        { date: "2026-04-12", time: "19:00", home: "Benfica", away: "Porto", prediction: "1X DC", odds: "1.35", status: "pending" },
-        { date: "2026-04-12", time: "21:00", home: "PSG", away: "Monaco", prediction: "Home Win", odds: "1.55", status: "pending" }
+        { date: "2026-04-12", time: "20:00", home: "Twente", away: "FC Volendam", prediction: "Home Win", odds: "1.20", status: "pending" },
+        { date: "2026-04-12", time: "20:30", home: "Prijedor", away: "Borac Banja", prediction: "Away Win", odds: "1.50", status: "pending" },
+        { date: "2026-04-12", time: "20:45", home: "AS Roma", away: "Pisa", prediction: "Home Win", odds: "1.40", status: "pending" },
+        { date: "2026-04-12", time: "19:00", home: "Marseille", away: "Metz", prediction: "Home WIn", odds: "1.30", status: "pending" },
+        { date: "2026-04-12", time: "14:00", home: "Flora Tallinn", away: "Vaprus", prediction: "Home Win", odds: "1.33", status: "pending" }
     ]
 };
