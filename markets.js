@@ -18,7 +18,7 @@ const MARKET_DATA = {
         { date: "2026-04-12", time: "16:00", home: "Parma", away: "Napoli", prediction: "12 DC", odds: "1.38-LOST", status: "pending" },
         { date: "2026-04-12", time: "18:15", home: "Nice", away: "Le Havre", prediction: "1X DC", odds: "1.22", status: "pending" },
         { date: "2026-04-12", time: "18:30", home: "Chelsea", away: "Manchester City", prediction: "X2 DC", odds: "1.37", status: "pending" },
-        { date: "2026-04-12", time: "14:00", home: "Falkirk", away: "Rangers", prediction: "X2 DC-WON", odds: "1.20", status: "pending" },
+        { date: "2026-04-12", time: "14:00", home: "Falkirk", away: "Rangers", prediction: "X2 DC", odds: "1.20-WON", status: "pending" },
         { date: "2026-04-12", time: "14:00", home: "Tapatio", away: "Irapuato", prediction: "12 DC", odds: "1.26", status: "pending" }
     ]
 };
